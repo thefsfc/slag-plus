@@ -1,0 +1,22 @@
+type:GenericCrafter
+name:"Sand-Coal Heater"
+description:"Provides silicon by heating mixed coal and sand with slag."
+hasItems:true
+hasLiquids:true
+idleSound:"smelter"
+outputItem: {item:"silicon", amount:4}
+updateEffect:"reactorsmoke"
+health:120
+size:2
+craftTime:300
+consumes: {
+items:[
+ coal/2
+ sand/2
+]
+liquids:[
+ slag/1
+]
+}
+requirements:[{item:"lead",amount:65} {item:"titanium",amount:35} {item:"copper",amount:100}]
+category:"crafting"

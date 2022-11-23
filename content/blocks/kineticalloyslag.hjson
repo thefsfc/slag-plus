@@ -1,0 +1,24 @@
+type:GenericCrafter
+name:"Surge Alloy Slag Smelter"
+description:"Makes a surge alloy by melting copper, lead, titanium and silicon with slag."
+hasItems:true
+hasLiquids:true
+idleSound:"smelter"
+outputItem: {item:"surge-alloy", amount:4}
+updateEffect:"smoke"
+health:540
+size:3
+craftTime:480
+consumes: {
+items:[
+ copper/6
+ lead/8
+ titanium/4
+ silicon/3
+]
+liquids:[
+ slag/1.5
+]
+}
+requirements:[{item:"silicon",amount:85} {item:"titanium",amount:95} {item:"thorium",amount:40}]
+category:"crafting"

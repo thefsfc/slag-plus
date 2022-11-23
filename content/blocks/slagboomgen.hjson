@@ -1,0 +1,19 @@
+type:ConsumeGenerator
+name:"Explode Generator"
+description:"Gives energy by heating an blast compound with slag. Explosion resistant"
+hasLiquids:true
+hasItems:true
+size:2
+health:550
+updateEffect:"smeltsmoke"
+consumes:{
+items:[
+ blast-compound/2
+]
+liquids:[
+ slag/0.5
+]
+}
+category:"power"
+powerProduction:15
+requirements:[{item:"lead",amount:75} {item:"titanium",amount:55} {item:"copper",amount:90} {item:"graphite",amount:50}]

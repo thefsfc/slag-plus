@@ -1,0 +1,22 @@
+type:GenericCrafter
+name:"Slag-Metaglass Klin"
+description:"Mixes lead and sand, then releases the mixture into slag. The result is metaglass"
+hasItems:true
+hasLiquids:true
+idleSound:"smelter"
+outputItem: {item:"metaglass", amount:4}
+updateEffect:"smoke"
+health:240
+size:2
+craftTime:300
+consumes: {
+items:[
+ lead/2
+ sand/2
+]
+liquids:[
+ slag/0.25
+]
+}
+requirements:[{item:"lead",amount:65} {item:"titanium",amount:10} {item:"graphite",amount:35} {item:"copper",amount:45}]
+category:"crafting"

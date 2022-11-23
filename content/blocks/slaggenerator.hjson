@@ -1,0 +1,16 @@
+type:ConsumeGenerator
+name:"Slag Generator"
+description:"Converts the heat of the slag into energy. (Be careful not to burn yourself!)"
+hasLiquids:true
+hasItems:true
+size:2
+health:210
+updateEffect:"smeltsmoke"
+consumes:{
+liquids:[
+ slag/0.5
+]
+}
+category:"power"
+powerProduction:10
+requirements:[{item:"lead",amount:75} {item:"titanium",amount:15} {item:"copper",amount:80}]
