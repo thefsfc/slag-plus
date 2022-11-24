@@ -1,0 +1,8 @@
+displayName:"Liquids+" //Название мод
+name: "liquidsplus" //[id]Айди мода
+description: "Gives more opportunity to use liquids!"  //Описание мода
+author: "UltimaChaoZ" //Автор мода
+version: "1.2 Alpha" //Версия мода
+dependencies: [/*mod_id*/] //Писать айди мода без которого не запустить мод(как дополнение или использование библиотек)
+minGameVersion: 140.4 //Минимальная версия игры
+hidden: false //Использование мода на сервере
