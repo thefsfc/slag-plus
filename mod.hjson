@@ -1,8 +1,0 @@
-displayName:"Slag+" //Название мод
-name: "slagplus" //[id]Айди мода
-description: "Gives more opportunity to use slag!"  //Описание мода
-author: "UltimaChaoZ" //Автор мода
-version: "1.0 Alpha" //Версия мода
-dependencies: [/*mod_id*/] //Писать айди мода без которого не запустить мод(как дополнение или использование библиотек)
-minGameVersion: 140.4 //Минимальная версия игры
-hidden: false //Использование мода на сервере
