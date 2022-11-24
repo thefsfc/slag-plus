@@ -1,5 +1,3 @@
-# Slag+
-This mod adds 3 factories, 2 generators.
-Factories use slag instead of electricity, produce more, but require slightly more resources.
-Generators are also very good at their job.
-![IMG_20221123_162856](https://user-images.githubusercontent.com/74316923/203720380-496a3d6d-c63c-47e0-9bad-247493d8d1c2.jpg)
+# Liquids+
+This mod extends the use of different liquids, slag, water, oil, cryogen, arccite and neoplasm!
+For now, you can only use slag in this mod, but later I will add other liquids, including those from the planet Erekir.
