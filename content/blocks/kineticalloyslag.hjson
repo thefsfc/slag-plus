@@ -8,7 +8,7 @@ outputItem: {item:"surge-alloy", amount:4}
 updateEffect:"smoke"
 health:540
 size:3
-craftTime:480
+craftTime:100
 consumes: {
 items:[
  copper/6
